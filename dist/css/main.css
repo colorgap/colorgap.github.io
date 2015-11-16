@@ -9913,23 +9913,44 @@ button.close {
 .fa-fonticons:before {
   content: ""; }
 
+/* line 1, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.no-padding {
+  padding: 0px !important; }
+
+/* line 4, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.no-margin {
+  margin: 0px !important; }
+
+/* line 7, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.padding-xs {
+  padding: 5px !important; }
+
+/* line 10, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.margin-xs {
+  margin: 5px !important; }
+
 /**
  *  Do not remove this comments bellow. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
  */
-/* line 17, stdin */
+/* line 19, stdin */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
 
-/* line 24, stdin */
+/* line 26, stdin */
 .thumbnail {
   height: 200px; }
-  /* line 27, stdin */
+  /* line 29, stdin */
   .thumbnail img.pull-right {
     width: 50px; }
+
+/* line 33, stdin */
+body {
+  padding-top: 50px;
+  padding-bottom: 30px; }
 
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject

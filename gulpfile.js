@@ -74,4 +74,11 @@ gulp.task('script', function(){
         .pipe(concat('app.js'))
         .pipe(gulp.dest(config.ui.dest.script));
 });
+gulp.task('watch', function(){
+    gulp.watch(config.ui.src.scripts,['script']);
+    gulp.watch(config.ui.src.styles,['sass']);
+    gulp.watch(config.ui.src.partials,['partials']);
+    gulp.watch(config.ui.src.index,['minifyHtml']);
+
+});
 gulp.task('default', ['sass','bower','partials','icons','minifyHtml','script']);

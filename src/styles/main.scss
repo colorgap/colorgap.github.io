@@ -7,6 +7,8 @@ $font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif !default;
 @import "variables";
 @import "bootstrap";
 @import "font-awesome";
+@import "components/_helper";
+
 /**
  *  Do not remove this comments bellow. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
@@ -28,7 +30,10 @@ $font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif !default;
     width: 50px;
   }
 }
-
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
