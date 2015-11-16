@@ -18,8 +18,8 @@ var config = {
             index:'src/index.html'
         },
         dest:{
-            script:'js/',
-            style:'css/',
+            script:'dist/js/',
+            style:'dist/css/',
             partials:'partials',
             index:'.'
         }
@@ -52,7 +52,7 @@ gulp.task('partials', function(){
 });
 gulp.task('icons', function() {
     gulp.src(config.common.bowerDir + '/fontawesome/fonts/**.*')
-        .pipe(gulp.dest('./fonts'));
+        .pipe(gulp.dest('./dist/fonts'));
 });
 gulp.task('bower', function(){
     var jsFilter = gulpFilter('**/*.js');
@@ -60,10 +60,10 @@ gulp.task('bower', function(){
     return gulp.src(bower())
         .pipe(jsFilter)
         .pipe(concat('vendor.js'))
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('dist/js'))
         .pipe(cssFilter)
         .pipe(concat('vendor.css'))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist/js'));
 });
 gulp.task('minifyHtml', function(){
     gulp.src(config.ui.src.index)
