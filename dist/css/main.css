@@ -9929,6 +9929,38 @@ button.close {
 .margin-xs {
   margin: 5px !important; }
 
+/* line 13, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.padding-sm {
+  padding: 10px !important; }
+
+/* line 16, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.margin-sm {
+  margin: 10px !important; }
+
+/* line 19, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.padding-md {
+  padding: 20px !important; }
+
+/* line 22, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.margin-md {
+  margin: 20px !important; }
+
+/* line 25, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.padding-lg {
+  padding: 30px !important; }
+
+/* line 28, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.margin-lg {
+  margin: 30px !important; }
+
+/* line 31, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.padding-xl {
+  padding: 50px !important; }
+
+/* line 34, /Users/rahulchaturvedie/workspace/colorgap/colorgap.github.io/src/styles/components/_helper.scss */
+.margin-xl {
+  margin: 50px !important; }
+
 /**
  *  Do not remove this comments bellow. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
