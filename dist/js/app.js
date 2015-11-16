@@ -20,7 +20,11 @@
       .state('home', {
         url: '/',
         templateUrl: 'partials/home/index.html'
-      });
+    })
+    .state('contact', {
+      url: '/contact',
+      templateUrl: 'partials/contact/index.html'
+    });
 
     $urlRouterProvider.otherwise('/');
   }
